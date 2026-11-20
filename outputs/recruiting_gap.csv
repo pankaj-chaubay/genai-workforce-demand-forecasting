@@ -1,0 +1,17 @@
+quarter,role_family,forecast_hires,capacity,gap,action
+2025Q3,admin,18,25,-7,within capacity
+2025Q3,engineer,37,30,7,add recruiting capacity or start earlier
+2025Q3,project_manager,10,12,-2,within capacity
+2025Q3,technician,74,60,14,add recruiting capacity or start earlier
+2025Q4,admin,19,25,-6,within capacity
+2025Q4,engineer,38,30,8,add recruiting capacity or start earlier
+2025Q4,project_manager,7,12,-5,within capacity
+2025Q4,technician,58,60,-2,within capacity
+2026Q1,admin,19,25,-6,within capacity
+2026Q1,engineer,34,30,4,add recruiting capacity or start earlier
+2026Q1,project_manager,10,12,-2,within capacity
+2026Q1,technician,48,60,-12,within capacity
+2026Q2,admin,16,25,-9,within capacity
+2026Q2,engineer,34,30,4,add recruiting capacity or start earlier
+2026Q2,project_manager,9,12,-3,within capacity
+2026Q2,technician,85,60,25,add recruiting capacity or start earlier

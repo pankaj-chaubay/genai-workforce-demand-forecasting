@@ -1,0 +1,5 @@
+Pseudonym salt not set in WF_PSEUDONYM_SALT; using the development salt.
+Dropped direct identifiers: email, employee_id.
+Retention: removed 233 records hired before 2021-06 (48 months).
+Analysis window: excluded 316 records before 2022-01.
+Model records keep 6 columns; gender kept only for the audit.

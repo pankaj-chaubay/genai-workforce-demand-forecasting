@@ -1,0 +1,8 @@
+model,missed_roles,extra_roles,hires,error_cost_eur,hiring_cost_eur,saving_vs_baseline_pct,cost_per_hire_eur
+hybrid,456,280,2181.0,1383500,10107500,4.6,4634.0
+stakeholder_poisson,398,322,2181.0,1402400,10126400,4.5,4643.0
+stakeholder_temporal,539,264,2181.0,1468300,10192300,3.8,4673.0
+temporal_ml,610,321,2181.0,1718800,10442800,1.5,4788.0
+seasonal_naive,513,442,2181.0,1874500,10598500,0.0,4859.0
+additive_seasonal,542,613,2181.0,2345300,11069300,-4.4,5075.0
+poisson_rate,421,995,2181.0,3119300,11843300,-11.7,5430.0

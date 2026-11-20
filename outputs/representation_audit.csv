@@ -1,0 +1,17 @@
+role_family,year,hires,women,women_share,target,gap_to_target,suppressed
+admin,2022,57,35,0.614,0.5,0.114,False
+admin,2023,57,38,0.667,0.5,0.167,False
+admin,2024,97,60,0.619,0.5,0.119,False
+admin,2025,50,38,0.76,0.5,0.26,False
+engineer,2022,203,39,0.192,0.3,-0.108,False
+engineer,2023,216,46,0.213,0.3,-0.087,False
+engineer,2024,209,37,0.177,0.3,-0.123,False
+engineer,2025,99,24,0.242,0.3,-0.058,False
+project_manager,2022,53,19,0.358,0.4,-0.042,False
+project_manager,2023,40,10,0.25,0.4,-0.15,False
+project_manager,2024,52,19,0.365,0.4,-0.035,False
+project_manager,2025,24,13,0.542,0.4,0.142,False
+technician,2022,312,13,0.042,0.2,-0.158,False
+technician,2023,391,25,0.064,0.2,-0.136,False
+technician,2024,364,22,0.06,0.2,-0.14,False
+technician,2025,195,13,0.067,0.2,-0.133,False

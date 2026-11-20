@@ -1,0 +1,4 @@
+technology,country,role_families,start,change_pct,duration_months,source,text,parser,status
+wind,DE,['admin'],2025-11,10.0,,public affairs,The new grid connection rules for wind in DE start in 2025-11. We expect around 10% more admin hiring for permits.,rules,needs_review
+solar,ES,['technician'],2025-09,20.0,6.0,"engineering lead, solar",Three large solar parks in ES move to construction from 2025-09. Technician hiring should go up by about 20% for six months.,rules,needs_review
+,,,,,,HR business partner,Nothing new for project managers this quarter.,,no_signal

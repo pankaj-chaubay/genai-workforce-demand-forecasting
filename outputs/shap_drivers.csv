@@ -1,0 +1,18 @@
+feature,driver,mean_abs_shap
+pipeline_driver,project pipeline in the target month,0.5714
+lag_2,hires three months ago,0.4679
+lag_0,hires last month,0.1239
+role_code,role family,0.1179
+lag_1,hires two months ago,0.1152
+horizon,months ahead,0.1046
+technology_code,technology,0.1004
+country_code,country,0.0823
+pipeline_driver_at_origin,project pipeline today,0.0452
+hr_peak_season,HR peak season,0.0121
+target_month,calendar month,0.0086
+mean_3,"average hires, last 3 months",0.0075
+mean_12,"average hires, last 12 months",0.003
+mean_6,"average hires, last 6 months",0.0024
+hr_one_off_period,one-off hiring period (target month),0.0023
+hr_one_off_at_origin,one-off hiring period (today),0.0004
+same_month_last_year,hires in the same month last year,0.0001
