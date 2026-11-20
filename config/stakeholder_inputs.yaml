@@ -1,0 +1,82 @@
+# Structured stakeholder inputs. In the thesis these came from interviews with
+# HR, engineering and policy people. Here they describe the synthetic company.
+# Each item records who gave it and whether it has been reviewed, so the
+# forecast can always be traced back to a person and a decision.
+
+hr:
+  seasonality:
+    - technology: solar
+      role_family: technician
+      months: [3, 4, 5, 6]
+      source: HR business partner, solar
+      note: Field crews are hired before the main installation season.
+      status: approved
+    - technology: wind
+      role_family: technician
+      months: [4, 5, 6, 7]
+      source: HR business partner, wind
+      note: Turbine installation needs low-wind months.
+      status: approved
+  one_off_periods:
+    - start: "2022-01"
+      end: "2023-06"
+      role_families: [engineer, technician]
+      source: Head of talent acquisition
+      note: Backlog hiring after COVID. Not expected to repeat.
+      status: approved
+
+policy:
+  events:
+    - name: Solar subsidy increase
+      date: "2023-01"
+      technology: solar
+      country: DE
+      role_families: [engineer, technician]
+      lag_months: 3
+      duration_months: 18
+      expected_change_pct: 25
+      source: Public affairs
+      status: approved
+    - name: Faster permitting for onshore wind
+      date: "2024-07"
+      technology: wind
+      country: ES
+      role_families: [admin]
+      lag_months: 0
+      duration_months: null      # ongoing
+      expected_change_pct: 35
+      source: Public affairs
+      status: approved
+    - name: Feed-in tariff cut
+      date: "2025-01"
+      technology: solar
+      country: ES
+      role_families: [engineer, technician, project_manager]
+      lag_months: 2
+      duration_months: null
+      expected_change_pct: -20
+      source: Public affairs
+      status: approved
+
+engineering:
+  project_pipeline_file: project_pipeline.csv   # planned and running projects, in the data folder
+  temporary_contract_share:
+    solar: 0.25
+    wind: 0.12
+  source: Engineering leads
+  status: approved
+
+# What-if cases for the forward forecast. They do not change the base forecast.
+scenarios:
+  - name: Solar subsidy extended (DE)
+    technology: solar
+    country: DE
+    role_families: [engineer, technician]
+    start: "2026-01"
+    change_pct: 15
+  - name: Wind auction delayed (ES)
+    technology: wind
+    country: ES
+    role_families: [engineer, technician, project_manager]
+    start: "2025-10"
+    change_pct: -20
